@@ -116,7 +116,7 @@ First select 'Add Roles and Features', hit next until you get to where it asks y
 
 </p>
 <p>
-  Uncheck create DNS delegation. Hit next until you reach the installation window and install the program. your system will reboot after the install
+  Uncheck create DNS delegation. Hit next until you reach the installation window and install the program. your system will reboot after the installation is complete.
 </p>
 <p>
   
@@ -124,7 +124,9 @@ First select 'Add Roles and Features', hit next until you get to where it asks y
 
 </p>
 
-
+<h2>
+  Create a Domain Admin user within the domain
+</h2>
 
 
 
