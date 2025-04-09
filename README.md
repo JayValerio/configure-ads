@@ -40,6 +40,8 @@ First we will set up our DC-1 VM as our Domain Controller and install active dir
   ****![image](https://github.com/user-attachments/assets/e4fb3d13-bfdd-4d46-bc8e-0c773341c25d)
 
 </p>
+
+First select 'Add Roles and Features', hit next until you get to where it asks you to select roles.
 <p>
   
   ![image](https://github.com/user-attachments/assets/2ac5ae72-4d79-428b-9392-9fea7957808e)
@@ -66,15 +68,60 @@ First we will set up our DC-1 VM as our Domain Controller and install active dir
   
 </p>
 <p>
-
-![image](https://github.com/user-attachments/assets/f430bd6e-12b0-4fa0-9826-c36ab308e6c7)
-
-  
+  Here you select 'Active Directory Domain Services' select 'Add Features' and hit next until you reach the end.
 </p>
-From here you hit next until the end, select restart if required and install aall the new features.
+<p>
+
+  ![image](https://github.com/user-attachments/assets/69f0951d-f491-462a-aef3-de7961c78007)
+
+</p>
+
+<p>
+  From here select restart if required and install all the new features.
+</p>
+
+<p>
+  Once all Features are installed we will promote DC-1 to operate as a Domain Controller by setting up a forest as alphadomain.com
+</p>
+
+<P>
   
-  <p>
-  first you select add roles
+  ![image](https://github.com/user-attachments/assets/85b1a2ff-de8e-4c5a-a51a-3863c9ab7090)
+
+</P>
+
+<P>
+  From here we can 'Promote this server to a domain controller'
+</P>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/78f0ef6c-f36d-41ba-8ceb-a156516f51a5)
+
+</p>
+<p>
+  on this window select 'add a new forest' then set the root domain, in this case it would be 'alphadomain.com'. hit next.
+</p>
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/2b7216e2-b388-4296-9916-7fb9f9494627)
+
+</p>
+<p>
+  Here set the password for DSRM (Directory Services Restore Mode) and hit next
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/103ff228-5fd0-40e6-b331-6bb476eebd2a)
+
+</p>
+<p>
+  Uncheck create DNS delegation. Hit next until you reach the installation window and install the program. your system will reboot after the install
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/3652e305-d130-4a35-a7db-dd719aa6194b)
+
 </p>
 
 
