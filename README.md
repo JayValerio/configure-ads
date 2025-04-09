@@ -23,8 +23,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 <h2>Objectives </h2>
 
-- Create Domain Controller
-- Create Client - 1
+- Install Active Directory
+- Create a Domain Admin user within the domain
+- Join Client-1 to your domain (mydomain.com)
+- Setup Remote Desktop for non-administrative users on Client-1
+- Create additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
