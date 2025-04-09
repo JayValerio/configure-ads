@@ -127,6 +127,60 @@ First select 'Add Roles and Features', hit next until you get to where it asks y
 <h2>
   Create a Domain Admin user within the domain
 </h2>
+<p>
+  First open up active directory users and computers.
+</p>
+<p>
+
+  ![image](https://github.com/user-attachments/assets/eed7dbf6-8e0d-4001-8f71-a0a88b4f24e1)
+
+</p>
+<p>
+  Next we create 2 Organizational Units (OU) </br>
+  1. _EMPLOYEES</br>
+  2. _AADMINS
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/e05b5649-a073-4b1d-b319-b366caf9f64c)
+
+</p>
+<p>
+  Right click 'alphadomain.com', click new then Organizational Unit and create each Unit.
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/8e3eb346-6335-4722-aaf8-d5738ef63fb6)
+
+  
+  ![image](https://github.com/user-attachments/assets/2f7b5d70-796c-44d4-9a97-d4571df83a54)
+</p>
+<p>
+next we create a new user in the admin folder. In this case  'jane_admin' will be our new user.
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/dc5f43a7-cd5f-4ae1-9a47-5e2a65afb621)
+
+</p>
+<p>
+  This account is still not an admin, in order to do this we will add the account to the built in admins security group. In the admins folder, right click the account you want as an admin and go to properties, Member Of, Add - "Domain Admin", Check names then add the built in domain group.
+</p>
+<p>
+  
+</p>
+<p>
+  
+</p>
+
+
+
+
+
+
+
+
+
 
 
 
