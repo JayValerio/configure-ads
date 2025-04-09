@@ -170,9 +170,11 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 </p>
 <p>
   
+  ![image](https://github.com/user-attachments/assets/349d23f0-3dbe-4ee6-ace8-e8908254d62e)
+
 </p>
 <p>
-  
+  Now we will log into DC-1 as our 'jane_admin' account.
 </p>
 
 
