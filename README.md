@@ -22,6 +22,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
+<h2>Operating Systems Used+++++++++++++++++++++ </h2>
+- Create VM machines
+- Configure Active Directory
+- Demonstrate
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
