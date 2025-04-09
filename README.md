@@ -164,7 +164,9 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 </p>
 <p>
-  This account is still not an admin, in order to do this we will add the account to the built in admins security group. In the admins folder, right click the account you want as an admin and go to properties, Member Of, Add - "Domain Admin", Check names then add the built in domain group.
+  This account is still not an admin, in order to do this we will add the account to the built in admins security group.</br>
+  In the admins folder, right click the account you want as an admin and go to properties, Member Of, Add - "Domain Admin", Check names </br>
+  then add the built in domain group.
 </p>
 <p>
   
