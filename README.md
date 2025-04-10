@@ -177,8 +177,16 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
   Now we will log into DC-1 as our 'jane_admin' account.
 </p>
 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/d4eaae81-bcab-4173-8e7a-e5f79b212235)
 
-
+</p>
+<p>
+  Now that we've set up the Admin, lets set up our user Client one and add them to the domain. </br>
+  To do this we right click start, System, Remane this PC (advanced), Computer Name, Change. </br>
+  In the Member of section click the 'Domain' box and in the empty field type in the domain controller, in this case 'alphadomain.comj'
+</p>
 
 
 
