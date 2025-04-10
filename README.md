@@ -175,7 +175,12 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 </p>
 <p>
   Now we will log into DC-1 as our 'jane_admin' account.
+  
 </p>
+
+<h2>
+  Join Client-1 to your domain (mydomain.com)
+</h2>
 
 <p>
   
@@ -183,9 +188,22 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 </p>
 <p>
-  Now that we've set up the Admin, lets set up our user Client one and add them to the domain. </br>
-  To do this we right click start, System, Remane this PC (advanced), Computer Name, Change. </br>
-  In the Member of section click the 'Domain' box and in the empty field type in the domain controller, in this case 'alphadomain.comj'
+  Now that we've set up the Admin, lets set up our user Client-1 computer and add them to the domain. </br>
+  To do this we right click start, System, Rename this PC (advanced), Computer Name, Change. </br>
+  In the Member of section click the 'Domain' box and in the empty field type in the domain controller, in this case 'alphadomain.com'. </br>
+  A window will pop up for you to log into the domain, do so as the admin. Once logged in it will prompt you to restart, restart your RDC.
+</p>
+
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/d7eaa557-87a0-4c47-823a-96e5150fb196)
+
+</p>
+
+<p>
+  To verify that the computer was added to the domain, go back to the Domain Controller.</br>
+  In Active Directory Users and Computers click your domain for this example thats 'alphadomain.com' then select computers and you should see your client 1 computer there.
 </p>
 
 
