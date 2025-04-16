@@ -331,11 +331,20 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 ![image](https://github.com/user-attachments/assets/4d2a1a7b-c6ea-4335-9cfc-6d5b635d4de5)
 
+</p>
+<p>
+  Now that the new policy has been added we can either wait about  90 minutes for the policy to refresh or we can force the refresh to client-1 by pushing a command prompt.</br>
+  To do this we simply log into 'jane_admin' on client-1.
+  </p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/8f08d143-e32f-4e59-8e93-e87cfc6bd3e8)
+![image](https://github.com/user-attachments/assets/1cf055af-ab7e-4cbf-8b4e-4f800b571be1)
 
 </p>
-
-
-
+<p>
+  Open up 'command prompt' once logged in as your admin on client-1. type in the command 'gpupdate /force' and this will force the computer policy to update immediately.
+</p>
 
 
 
@@ -354,7 +363,7 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 </p>
 <p>
-to demonstrate an account lock out we will attempt to log into once of the users but purposely fail 10+ times to lock ourselves out.
+to demonstrate an account lock out we will attempt to log into once of the users but purposely fail 5+ times to lock ourselves out.
   
 </p>
 
