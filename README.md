@@ -206,10 +206,40 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
   In Active Directory Users and Computers click your domain, for this example thats 'alphadomain.com', select computers and you should see your client-1 there.
 </p>
 
+<h2>
+  Setup Remote Desktop for non-administrative users on Client-1
+</h2>
+<p>
+  Here we will configure Client-1 to allow RDC from non-administrative users.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/80fc6526-a712-465b-94a4-d85e29f958b8)
 
+</p>
+<p>
+  First, right click the start icon on the botton right, go to system, Remote desktop.
+</p>
 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/a901784b-4249-4160-9d85-69aa0804e518)
 
+</p>
+<p>
+  Next, click 'Select users that can remotely access this PC' under User accounts.</br>
+  In the pop up widnow select 'Add...'
+</p>
 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/af0148cc-654d-49db-b690-0742ac6eabcb)
+
+</p>
+
+<p>
+  In this window type in 'domain users', then check names, then add the domain users by pressing 'OK'. This will allow any user in the domain to access the Client-1 desktop remotely.
+</p>
 
 
 
