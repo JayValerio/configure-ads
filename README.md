@@ -263,8 +263,102 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 </P>
 <p>
-  next we create a new file in powershell, 
+  next we create a new file in powershell, save that file as "create new users" or whatever you prefer. Run this script: https://github.com/JayValerio/Create-10k-pwrshell. Click run and wait for the users to be created.
 </p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/bd2f9311-1204-4d22-9309-52e214619e1b)
+
+![image](https://github.com/user-attachments/assets/2d3e1e2b-1834-4ebc-9459-ec0418a47196)
+
+</p>
+
+<p>
+  Once this is completed open 'Active Directory Users and Computers', go to the OU '_EMPLOYESS' and check that all users have been added to this folder. All users that we have created will have 'Password1' as the password. We can now pick one at random to log into Client-1.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/60b1248a-c174-455c-9a59-deb6755e5a5e)
+
+</p>
+<p>
+  For this example 'com.lok' will be our random picked user.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/02345225-4c08-4687-b6be-50a700a4e584)
+
+  ![image](https://github.com/user-attachments/assets/f287602a-b4fb-4293-8edd-4f4056a464d5)
+
+
+</p>
+<p>
+  As you can see now we can log into client-1 with any of the 10000 users we have in ADCU(Active Directory Users and Computers). Next we will look into how to manage each individual account and group policy.
+</p>
+<h2>
+  Dealing with Account Lockouts
+</h2>
+
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/331494e6-7eb9-4ae9-8b70-604fc6bc40a2)
+
+
+</p>
+<p>
+  We will configure the account lockout policy in group policy management tab on DC-1. right Click start, then Run, type in 'gpmc.msc' 
+</p>
+
+<p>
+  
+ ![image](https://github.com/user-attachments/assets/15084c49-38f6-412e-a3b1-066719a443df)
+![image](https://github.com/user-attachments/assets/5d53a91f-4bc1-4740-a915-4931c3700031)
+
+
+</p>
+<p>
+  Next we find our 'Default Domain Policy' and right click, edit, Policies, Windows Settings, Security Settings, Account Policies, Account Lockout Policy. </br>
+  </br>
+
+  Account Lockout duration: How long is the acocunt locked out. </br>
+  Account Lockout threshold: How many attempts does the user get before being locked out. </br>
+</br>
+
+<p>
+  We can use these two setting to control how long someone is locked out of the account and how many attempts they receive before getting locked out.
+</p>
+
+![image](https://github.com/user-attachments/assets/4d2a1a7b-c6ea-4335-9cfc-6d5b635d4de5)
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/48280fc8-e0a3-4834-b5c5-fecfe6a4b693)
+
+</p>
+<p>
+to demonstrate an account lock out we will attempt to log into once of the users but purposely fail 10+ times to lock ourselves out.
+  
+</p>
+
+
 
 
 
