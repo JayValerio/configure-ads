@@ -241,7 +241,30 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
   In this window type in 'domain users', then check names, then add the domain users by pressing 'OK'. This will allow any user in the domain to access the Client-1 desktop remotely.
 </p>
 
+<h2>
+  Create a bunch of additional users and attempt to log into client-1 with one of the users
+</h2>
 
+<p>
+  We will now create several users with PowerShell. This will allow us to pick one at random and use that account to log into client-1.
+</p>
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/60aa2e53-2d9c-44e8-bdec-87d4ded6f14a)
+
+</p>
+<p>
+  First we log into DC-1 as our Admin, Jane. We open powershell ISE as an administrator.
+</p>
+<P>
+  
+  ![image](https://github.com/user-attachments/assets/22d3b1e4-9367-4d28-a9de-b3d6ff2b04a1)
+
+</P>
+<p>
+  next we create a new file in powershell, 
+</p>
 
 
 
