@@ -340,10 +340,11 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
   
   ![image](https://github.com/user-attachments/assets/8f08d143-e32f-4e59-8e93-e87cfc6bd3e8)
 ![image](https://github.com/user-attachments/assets/1cf055af-ab7e-4cbf-8b4e-4f800b571be1)
+![image](https://github.com/user-attachments/assets/c838ec53-a6cb-4883-9628-2ed617954f5e)
 
 </p>
 <p>
-  Open up 'command prompt' once logged in as your admin on client-1. type in the command 'gpupdate /force' and this will force the computer policy to update immediately.
+  Open up 'command prompt' once logged in as your admin on client-1. type in the command 'gpupdate /force' and this will force the computer policy to update immediately. You can verify that the group policy updated by running command line as an admin and running the command 'gpresult /r' this will show you which GP was last updated and when it happened.
 </p>
 
 
