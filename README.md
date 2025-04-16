@@ -203,7 +203,7 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 
 <p>
   To verify that the computer was added to the domain, go back to the Domain Controller.</br>
-  In Active Directory Users and Computers click your domain for this example thats 'alphadomain.com' then select computers and you should see your client 1 computer there.
+  In Active Directory Users and Computers click your domain, for this example thats 'alphadomain.com', select computers and you should see your client-1 there.
 </p>
 
 
