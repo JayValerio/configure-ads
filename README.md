@@ -361,33 +361,59 @@ next we create a new user in the admin folder. In this case  'jane_admin' will b
 <p>
   
   ![image](https://github.com/user-attachments/assets/48280fc8-e0a3-4834-b5c5-fecfe6a4b693)
+![image](https://github.com/user-attachments/assets/1cbdb568-09a1-48a9-92a2-a967a357d661)
 
 </p>
 <p>
-to demonstrate an account lock out we will attempt to log into once of the users but purposely fail 5+ times to lock ourselves out.
+to demonstrate an account lock out we will attempt to log into one of the users but purposely fail 5+ times to lock ourselves out.
   
 </p>
 
+<p>
+  
+  
+![image](https://github.com/user-attachments/assets/75b87a3a-8dcd-4b2f-9cb9-a41d2bd30492)
 
+</p>
+<p>
+  Now that the account is locked out, we can go back into DC-1 and unlock the account to gain access to it. First we right click our domain 'alphadomain.com\' and select find. Then we type in our account we want to work on in this case that is 'com.lok'.
+</p>
+<p>
+  
+ 
+![image](https://github.com/user-attachments/assets/0a914305-3580-49b1-bbc0-a36f996cbae3)
 
+</p>
+<p>
+  now that we have the account, right click it and select properties. go to 'Account' and check the box 'Unlock account. This account is currently locked...' then hit apply and try to log in again with the acocunt.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/9025b9d0-69c1-45ea-962a-d1ef41ecaa78)
 
-
-
-
+</p>
+<p>
+  Now that we reset the account, we can access it again. This can be used with any of the accounts created on the domain unlock them if ever needed.
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
