@@ -435,11 +435,33 @@ to demonstrate an account lock out we will attempt to log into one of the users 
 <h2>
   Observing Logs
 </h2>
+<p>
+We can observe logs on any machine by simply clicking start and typing in 'eventvwr.msc'.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/bd731f8c-3356-45ff-b40f-26f344b3e66e)
 
+</p>
+<p>
+  In DC-1 we pulled up the event viewer where you can see all those authentication logs.
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/2381ef5a-ab1e-47b3-b394-ec1f660098d9)
 
+</p>
+<p>
+  In the event viewer you open 'Windows Logs' then right click 'Security' and select 'Find...'. here we can look for the recent account we used 'com.lok'
+</p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/e6785e18-ee47-4bb2-be74-5036c015916a)
 
-
-
+</p>
+<p>
+  Here we can see all the activity for 'com.lok', from the account logging in/out, the account being disabled/Enabled, the lockouts and everything in between. Checking the events on the machine the account was last used on will show much more detailed events.
+</p>
 <br />
 
 
