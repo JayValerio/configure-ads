@@ -395,6 +395,51 @@ to demonstrate an account lock out we will attempt to log into one of the users 
 <p>
   Now that we reset the account, we can access it again. This can be used with any of the accounts created on the domain unlock them if ever needed.
 </p>
+<p>
+
+  ![image](https://github.com/user-attachments/assets/32877cd3-ba1c-49cb-bad1-57aeccf32c6e)
+  
+</p>
+<p>
+  In the case where you need to reset the password there is an option to do so right when you look up the account. Once you right click the account you are looking for, simply hit 'Reset Passowrd...' you can set the new password and unlock the users account from here as well.
+</p>
+
+<h2>
+  Dealing with Account Lockouts
+</h2>
+
+<p>
+  For this example we will be disabling our 'com.lok' account
+</p>
+
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/4c24aa73-57ad-4d34-b13e-f10f2f48956e)
+
+</p>
+
+<p>
+  As you can see when we attempt to log in the account has been disabled.
+</p>
+
+<p>
+ 
+  ![image](https://github.com/user-attachments/assets/942f0d28-8257-42c9-b76b-041b293a23f8)
+![image](https://github.com/user-attachments/assets/10f38d10-1baf-471f-82ff-b41fdf50b44f)
+
+</p>
+<p>
+  Back in DC-1 we search up the user in ADUC, right click the account and enable the account. Now we can log in.
+</p>
+
+<h2>
+  Observing Logs
+</h2>
+
+
+
+
+
 <br />
 
 
