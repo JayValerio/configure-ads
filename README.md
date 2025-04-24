@@ -460,7 +460,7 @@ We can observe logs on any machine by simply clicking start and typing in 'event
 
 </p>
 <p>
-  Here we can see all the activity for 'com.lok', from the account logging in/out, the account being disabled/Enabled, the lockouts and everything in between. Checking the events on the machine the account was last used on will show much more detailed events.
+  Here we can see all the activity for 'com.lok', from the account logging in/out, the account being disabled/Enabled, the lockouts and everything in between. If you check the event logs on the computer that the account was last used on, you will see a much more detailed list of events.
 </p>
 <br />
 
